@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingKobold.LFG.API", "CodingKobold.LFG.API\CodingKobold.LFG.API.csproj", "{ACD9945F-F63D-4ECA-A548-F215A15401EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingKobold.LFG.SPA", "CodingKobold.LFG.SPA\CodingKobold.LFG.SPA.csproj", "{B74C4E17-582F-4B48-B33B-AFFD8904B836}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{DD615E8A-B237-4863-AB8F-A866536EFB44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTests", "IntegrationTests", "{A0C71272-8C34-4469-8083-81BA65EB5E7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingKobold.LFG.Domain.UnitTests", "CodingKobold.LFG.Domain.UnitTests\CodingKobold.LFG.Domain.UnitTests.csproj", "{E884440C-16E3-4B1C-9C81-7D22041EB166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingKobold.LFG.Domain", "CodingKobold.LFG.Domain\CodingKobold.LFG.Domain.csproj", "{4E0246F1-9BC0-4084-AABB-4D3563F02567}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACD9945F-F63D-4ECA-A548-F215A15401EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD9945F-F63D-4ECA-A548-F215A15401EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD9945F-F63D-4ECA-A548-F215A15401EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD9945F-F63D-4ECA-A548-F215A15401EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B74C4E17-582F-4B48-B33B-AFFD8904B836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B74C4E17-582F-4B48-B33B-AFFD8904B836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B74C4E17-582F-4B48-B33B-AFFD8904B836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B74C4E17-582F-4B48-B33B-AFFD8904B836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E884440C-16E3-4B1C-9C81-7D22041EB166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E884440C-16E3-4B1C-9C81-7D22041EB166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E884440C-16E3-4B1C-9C81-7D22041EB166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E884440C-16E3-4B1C-9C81-7D22041EB166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E0246F1-9BC0-4084-AABB-4D3563F02567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E0246F1-9BC0-4084-AABB-4D3563F02567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E0246F1-9BC0-4084-AABB-4D3563F02567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E0246F1-9BC0-4084-AABB-4D3563F02567}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E884440C-16E3-4B1C-9C81-7D22041EB166} = {DD615E8A-B237-4863-AB8F-A866536EFB44}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {536623A3-4EF1-4228-80A0-8BBE551878F8}
+	EndGlobalSection
+EndGlobal
