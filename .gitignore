@@ -27,8 +27,8 @@ bld/
 # Visual Studio 2015 cache/options directory
 .vs/
 
-wwwroot/dist/
-ClientApp/dist/
+# Distribution folders, change if there are needed files
+dist/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
