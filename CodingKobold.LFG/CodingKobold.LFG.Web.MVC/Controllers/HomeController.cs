@@ -2,17 +2,44 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using CodingKobold.LFG.Web.MVC.Models;
+using Microsoft.Extensions.Configuration;
 
 namespace CodingKobold.LFG.Web.MVC.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private readonly HttpClient _httpClient;
+        private readonly IConfiguration _configuration;
+
+        // Probably better put it in some kind of provider
+        private readonly string _apiAddress;
+
+        public HomeController(IConfiguration configuration)
         {
-            return View();
+            _httpClient = new HttpClient();
+            _configuration = configuration;
+            _apiAddress = _configuration.GetValue<string>("ApiAddress");
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var uri = _apiAddress + "values/";
+            try
+            {
+                var response = await _httpClient.GetAsync(uri);
+                response.EnsureSuccessStatusCode();
+                var responseBody = await response.Content.ReadAsStringAsync();
+
+                return View(model: responseBody);
+            }
+            catch (HttpRequestException)
+            {
+                throw;
+            }
         }
 
         public IActionResult About()
