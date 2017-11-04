@@ -13,12 +13,12 @@ namespace CodingKobold.LFG.Domain.Entities
             LastSeenTime = new DateTime();
         }
 
-        public void SetTodayRegisterTime()
+        public void SetRegisterDate()
         {
             RegisterTime = DateTime.Now.Date;
         }
 
-        public void SetTodayLastSeenTime()
+        public void SetLogoutDate()
         {
             LastSeenTime = DateTime.Now.Date;
         }

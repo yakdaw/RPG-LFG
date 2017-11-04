@@ -9,15 +9,11 @@ namespace CodingKobold.LFG.Domain.UnitTests.Entities
         [Test]
         public void MethodName_StateUnderTest_ExpectedBehavior()
         {
-            // Arrange
-            var result = 2;
-
-            // Act
-            result += 2;
+            // Arrange and Act
+            var player = new Player("Example");
 
             // Assert
-            Assert.AreEqual(4, result);
+            Assert.AreEqual("Example", player.Nickname);
         }
-
     }
 }
