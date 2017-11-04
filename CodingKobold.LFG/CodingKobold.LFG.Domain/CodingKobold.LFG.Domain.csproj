@@ -45,6 +45,7 @@
     <Compile Include="Entities\Group.cs" />
     <Compile Include="Entities\Meeting.cs" />
     <Compile Include="Entities\Player.cs" />
+    <Compile Include="Entities\Profile.cs" />
     <Compile Include="Entities\RpgSystem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
