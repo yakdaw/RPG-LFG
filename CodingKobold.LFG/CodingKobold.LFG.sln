@@ -15,8 +15,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingKobold.LFG.Domain", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingKobold.LFG.Web.MVC", "CodingKobold.LFG.Web.MVC\CodingKobold.LFG.Web.MVC.csproj", "{5D9EA41E-1D69-4C1F-AACB-5AB2E62AF087}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingKobold.LFG.API.Model", "CodingKobold.LFG.API.Model\CodingKobold.LFG.API.Model.csproj", "{A32653AC-6366-4342-98C8-D7E94D46CD47}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,10 +37,6 @@ Global
 		{5D9EA41E-1D69-4C1F-AACB-5AB2E62AF087}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D9EA41E-1D69-4C1F-AACB-5AB2E62AF087}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D9EA41E-1D69-4C1F-AACB-5AB2E62AF087}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A32653AC-6366-4342-98C8-D7E94D46CD47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A32653AC-6366-4342-98C8-D7E94D46CD47}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A32653AC-6366-4342-98C8-D7E94D46CD47}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A32653AC-6366-4342-98C8-D7E94D46CD47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
