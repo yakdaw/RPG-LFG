@@ -1,4 +1,5 @@
-﻿using CodingKobold.LFG.Domain.Entities;
+﻿using CodingKobold.LFG.API.Persistence.EntityConfigurations;
+using CodingKobold.LFG.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace CodingKobold.LFG.API.Persistence
@@ -13,7 +14,8 @@ namespace CodingKobold.LFG.API.Persistence
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // TODO : Fluent API
+            modelBuilder.ApplyConfiguration(new PlayerConfiguration());
+
             base.OnModelCreating(modelBuilder);
         }
     }

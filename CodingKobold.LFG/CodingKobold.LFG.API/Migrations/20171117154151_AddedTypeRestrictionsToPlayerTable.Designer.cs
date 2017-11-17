@@ -11,9 +11,10 @@ using System;
 namespace CodingKobold.LFG.API.Migrations
 {
     [DbContext(typeof(RpgLfgContext))]
-    partial class RpgLfgContextModelSnapshot : ModelSnapshot
+    [Migration("20171117154151_AddedTypeRestrictionsToPlayerTable")]
+    partial class AddedTypeRestrictionsToPlayerTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
