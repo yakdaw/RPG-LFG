@@ -1,5 +1,3 @@
-using System;
-
 namespace CodingKobold.LFG.Web.MVC.Models
 {
     public class ErrorViewModel

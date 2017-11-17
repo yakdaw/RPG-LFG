@@ -1,6 +1,6 @@
-﻿using System;
-using CodingKobold.LFG.Domain.Entities;
+﻿using CodingKobold.LFG.Domain.Entities;
 using NUnit.Framework;
+using System;
 
 namespace CodingKobold.LFG.Domain.UnitTests.Entities
 {

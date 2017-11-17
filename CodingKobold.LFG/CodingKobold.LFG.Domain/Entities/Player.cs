@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace CodingKobold.LFG.Domain.Entities
+﻿namespace CodingKobold.LFG.Domain.Entities
 {
     public enum Gender { Male, Female }
 
