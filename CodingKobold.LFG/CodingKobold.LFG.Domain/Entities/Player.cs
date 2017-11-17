@@ -11,7 +11,7 @@ namespace CodingKobold.LFG.Domain.Entities
 
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public Gender Gender { get; set; }
+        //public Gender Gender { get; set; }
         public string City { get; set; }
 
         //public LoginInfo LoginInfo { get; set; }
